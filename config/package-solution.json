@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "master-page-client-side-solution",
+    "id": "06e49252-25c2-41ba-ac53-0e0e28e5f25a",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "title": "Master page Dinamica",
+        "description": "Configure sua masterpage atráves de uma lista customizada.",
+        "id": "99ddcef1-6a40-40ff-bf1c-88bef921bd4f",
+        "version": "1.0.0.1",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/master-page.sppkg"
+  }
+}

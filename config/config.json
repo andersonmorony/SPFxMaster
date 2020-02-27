@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "master-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/master/MasterApplicationCustomizer.js",
+          "manifest": "./src/extensions/master/MasterApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MasterApplicationCustomizerStrings": "lib/extensions/master/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

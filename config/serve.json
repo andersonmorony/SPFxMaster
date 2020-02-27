@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://morony.sharepoint.com/sites/negocios",
+      "customActions": {
+        "3595d2e0-01b0-4023-b994-a40203e22328": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "master": {
+      "pageUrl": "https://morony.sharepoint.com/sites/negocios",
+      "customActions": {
+        "3595d2e0-01b0-4023-b994-a40203e22328": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

@@ -24,7 +24,7 @@
     "@pnp/spfx-property-controls": "1.16.0",
     "@types/es6-promise": "0.0.33",
     "@types/webpack-env": "1.13.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "micromodal": "^0.4.2",
     "modaal": "^0.4.4",
     "sweetalert2": "^9.8.2"
